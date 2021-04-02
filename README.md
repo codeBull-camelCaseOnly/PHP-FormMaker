@@ -2,6 +2,10 @@
 
 A simple library that helps in form rendering and validation.
 
+![image](https://user-images.githubusercontent.com/58913047/113403626-96ee3a00-93c4-11eb-8378-ce87ced62f72.png)
+
+![image](https://user-images.githubusercontent.com/58913047/113403672-a8cfdd00-93c4-11eb-86ba-0744851f5acf.png)
+
 ## Usage
 
 The library consists of two files - `Form.php` and `FormBackend.php`, first one is for rendering the form in the frontend and second one is for validating the form in the backend.
