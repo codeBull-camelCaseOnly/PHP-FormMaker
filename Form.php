@@ -206,12 +206,12 @@ class Form
         return $res;
     }
 
-    public function render()
+    public function render($classes = '')
     {
         $msg = $this->errors['__FORM_MSG'] ?? '';
         echo <<< HTML
         <div>
-            <form name="$this->name" id="$this->name" action="$this->action" method="$this->method" class="$this->hidden">
+            <form name="$this->name" id="$this->name" action="$this->action" method="$this->method" class="$this->hidden $classes">
                 <div class="display-4 text-center">
                     $this->title
                 </div>
